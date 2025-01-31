@@ -12,9 +12,8 @@
 
 /* Footer title */
 .footer-title {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
   color: #ffcc00;
   letter-spacing: 1px;
 }
@@ -24,12 +23,11 @@
   display: flex;
   justify-content: center;
   gap: 25px;
-  margin-bottom: 20px;
 }
 
 .social-icons a {
   color: white;
-  font-size: 30px;
+  font-size: 10px;
   text-decoration: none;
   transition: color 0.3s, transform 0.3s;
 }
@@ -42,16 +40,16 @@
 
 /* Footer text */
 .footer-text {
-  font-size: 14px;
+  font-size: 10px;
   opacity: 0.8;
-  margin-top: 20px;
+  margin-top: 0px;
   letter-spacing: 0.5px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .footer-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .social-icons {
@@ -59,7 +57,7 @@
   }
 
   .social-icons a {
-    font-size: 26px;
+    font-size: 10px;
   }
 
   .footer-text {

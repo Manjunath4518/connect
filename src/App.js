@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./About";
 import AboutUs from "./components/Aboutus";
 import Home from "./Home";
+import Event from "./components/Event";
 
 
 import "./App.css";
@@ -18,7 +19,10 @@ const App = () => {
       </Routes> 
        <Routes>
         <Route path="/aboutus" element={< About/>} />
-      </Routes> 
+      </Routes>
+      <Routes Routes>
+        <Route path="/events" element={< Event/>} />
+      </Routes>
     </Router>
   );
 };

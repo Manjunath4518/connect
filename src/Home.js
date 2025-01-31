@@ -1,14 +1,16 @@
 import Navbar from "./components/Navbar";
-import Slideshow from "./components/Slideshow";
 import Footer from "./components/Footer";
-import React from 'react'
+import React from 'react';
+import Homeimage from "./Homeimage";
 
 function Home() {
   return (
-    <><Navbar />
-    <Slideshow />
-    <Footer /></>
-  )
+    <>
+      <Navbar />
+      <Homeimage />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
